@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ar" style="direction: rtl;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فريق العمل</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="teamStyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .fixed-top{
+          box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+          padding: 20px 10px 20px 10px;
+        }
+        .navbar  a{
+          color:rgb(255, 255, 255);
+          text-decoration: none;
+        }
+      
+        .navbar  a:hover{
+          color: black;
+          font-size: larger;
+          
+        }
+       
+    
+      .navbar .nav-item .btn{
+        float:left;
+        margin-left: 10px;
+        background-color: transparent;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+      }
+      .navbar-toggler {
+        background-color: rgb(71, 65, 65);
+        opacity: 0.4;
+      }
+        .jumbotron{
+            background-image: url("Team1.png");
+            height: 500px;
+            background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:0;
+    padding-bottom: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+        .theTeam{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  height: 100%;
+  padding-top: 250px;
+  padding-right: 150px;
+  color: aliceblue;
+  text-shadow:3px 3px 10px rgb(0 0 0 / 0.6); 
+  font-size: larger;
+        }
+        
+    </style>
+     
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!--Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <a class="navbar-brand" href="index.html">الصفحةالرئيسية</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item pg1">
+          <a class="nav-link" href="events.html">فعاليات</a>
+        </li>
+        <li class="nav-item pg1">
+            <a class="nav-link" href="carehome.html">المدونة</a>
+        </li>
+        <li class="nav-item pg1">
+          <a class="nav-link" href="courses.html">تدريبات</a>
+        </li>
+        <li class="nav-item pg1">
+          <a class="nav-link" href="team.html">فريق العمل</a>
+        </li> 
+      </ul>
+      <ul class="navbar-nav navbar-right">
+        <li class="nav-item  tbra3">
+          <button type="button" class="btn btn-outline "><a href="donate.html">تبرع</a></button> 
+        </li>
+        <li class="nav-item tbra3">
+          <button type="button" class="btn btn-outline"><a href="volunteer.html">تطوع</a></button> 
+        </li>
+      </ul>
+    </div>  
+  </nav>
+  <!--end navbar-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid theTeam" style="text-align: right;">
+      <h1>عن الفريق</h1>      
+      <p>نحن مجموعة من الشباب الطموحين نقدم حلول مبتكرة لحل مشاكل المجتمع المصرى،
+          أنشأنا هذه المبادرة لإنقاذ أطفال بلا مأوى وإتاحة الفرص لهم ودمجهم فى المجتمع وإنهاء هذه الظاهرة .</p>
+    </div>
+  </div>
+    <!--1st three members-->
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3 py-4 mt-5 mb-5">
+                    <div class="text-center"> <img src="mernan.png" width="100" height="100"class="rounded-circle">
+                        <h3 class="mt-2">مرنان ماجد</h3> <span class="mt-1 clearfix">web developer</span> 
+                        <small class="mt-4 clearfix">16 سنة</small>
+                        <small class="mt-4">عضو في برلمان طلائع الجمهورية ومقرر عام الجلسة علي المستوي المحافظة؛ لاعبة جودو</small>
+                        <div class="social-buttons mt-5">
+                            <a href="https://www.facebook.com/mernan.maged " target="blank">  <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button></a> 
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button></a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 py-4 mt-5">
+                    <div class="text-center"> <img src="ali.png"width="100" height="100" class="rounded-circle">
+                        <h3 class="mt-2">علي المتيم</h3> <span class="mt-1 clearfix">web developer</span>
+                         <small class="mt-4 clearfix">15 سنة</small>
+                         <small class="mt-4 clearfix">طالب فى الصف الثاني الثانوي، أمارس رياضة كرة القدم</small>
+                        <div class="social-buttons mt-5"> 
+                            <a href="https://www.facebook.com/ali.elmotim.1 " target="blank"><button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> </a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button></a>
+                           <a href="" target="blank">  <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button></a>
+                           <a href="" target="blank">  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button></a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 py-4 mt-5">
+                    <div class="text-center"> <img src="مصطفى.png" width="100" height="100" class="rounded-circle">
+                        <h3 class="mt-2">مصطفى عصام</h3> <span class="mt-1 clearfix">Graphic designer</span> 
+                        <small class="mt-4 clearfix">16 سنة</small>
+                        <small class="mt-4">عضو فى مبادرة "طور وغير" التابعة لوزارة الشباب والرياضة، متطوع بمؤسسة الهلال الأحمر الدولية، لاعب كرة قدم .</small>
+                        <div class="social-buttons mt-5"> 
+                            <a href="https://www.facebook.com/profile.php?id=100008381975661" target="blank"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button></a> 
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!--nd 2 members-->
+    <div class="container  team">
+        <div class="row">
+            <div class="col-md-1">
+              
+            </div>
+            <div class="col-md-5">
+                <div class="card p-3 py-4 mt-5">
+                    <div class="text-center"> <img src="mohamed.png" width="100" height="100" class="rounded-circle">
+                        <h3 class="mt-2">محمد عبده</h3> <span class="mt-1 clearfix">Web developer</span> 
+                        <small class="mt-4 clearfix">15 سنة</small>
+                        <small class="mt-4"> عضو ببرلمان الطلائع واحب لعب البلايستشن و البرمجة🕹️</small>
+                        <div class="social-buttons mt-5"> 
+                            <a href="https://www.facebook.com/profile.php?id=100054951039321" target="blank">  <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> </a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button></a>
+                           <a href="" target="blank">  <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button></a>
+                           <a href="" target="blank">  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card p-3 py-4 mt-5">
+                    <div class="text-center"> <img src="khaled.png" width="100" height="100" class="rounded-circle">
+                        <h3 class="mt-2">خالد طه</h3> <span class="mt-1 clearfix">web developer</span>
+                         <small class="mt-4 clearfix" >15 سنة</small>
+                         <small class="mt-4">طالب بالصف الأول الأعدادي , 🏊‍♂️⚽ هوايتي كرة القدم و السباحة</small>
+                        <div class="social-buttons mt-5"> 
+                            <a href="https://www.facebook.com/profile.php?id=100071654737429" target="blank"><button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button></a>
+                            <a href="" target="blank">  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button></a>
+                             </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+               
+            </div>
+        </div>
+        
+    </div>
+ <!--footer-->
+ <footer id="dk-footer" class="dk-footer">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+                 
+          </div> 
+            <div class="col-md-4 ">
+                <div class="dk-footer-box-info">
+                    <a href="index.html" class="footer-logo">
+                        <img src="logo.jpeg" alt="footer_logo" class="img-fluid">
+                    </a>
+                    <p class="footer-info-text">
+                        مبادرة "إحنا عيلتك" لمساعدة وإيواء أطفال الشارع  (أطفال بلا مأوى)، وتقوم المبادرة بإعطائهم حقهم من الفرص لدمجهم فى المجتمع،
+                        وتعليمهم وتوفير احتياجاتهم، حيث يستطيعون النظر إلى الحياة بشكل أفضل، ودون أي فرق عن أقرانهم.
+                    </p>
+                    <div class="footer-social-link">
+                        <h3>تواصل معنا</h3>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/%D8%A7%D8%AD%D9%86%D8%A7-%D8%B9%D9%8A%D9%84%D8%AA%D9%83-239379081327897">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                           
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC_0tMH6MlRcSVgBQgdTbvXw">
+                                    <i class="fa fa-youtube" ></i>
+                                </a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                    <!-- End Social link -->
+                </div>
+              
+            </div>
+            <div class="col-md-1">
+                 
+            </div>
+            <!-- End Col -->
+            <div class="col-md-3 ">
+                        <div class="footer-widget " >
+                            <div class="section-heading " >
+                                <h3>خريطة الموقع</h3>
+                                <span class="animate-border border-black"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="index.html">الصفحةالرئيسية</a>
+                                </li>
+                                <li>
+                                    <a href="events.html">فعاليات</a>
+                                </li>
+                                <li>
+                                    <a href="carehome.html">المدونة</a>
+                                </li>
+                                <li>
+                                    <a href="courses.html">تدريبات</a>
+                                </li>
+                                <li>
+                                    <a href="team.html">فريق العمل</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <!-- End Footer Widget -->
+                    </div> 
+             <div class="col-md-2">
+                 
+             </div>     
+               
+           
+        </div>
+        <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <span>Copyright © 2021, All Right Reserved Programmers team</span>
+                </div>
+                <div class="col-md-3"></div>
+                <!-- End col -->
+            </div>
+            <!-- End Row -->
+        </div>
+        <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+    <!-- Back to top -->
+    <div id="back-to-top" class="back-to-top">
+      <a href="#myPage">
+        <button class="btn btn-dark" title="Back to Top" style="display: block;">
+            <i class="fa fa-angle-up"></i>
+        </button>
+      </a>
+    </div>
+    <!-- End Back to top -->
+</footer>
+<script>
+    $(document).ready(function(){
+$(window).scroll(function(){
+var scroll = $(window).scrollTop();
+if (scroll > 300) {
+$(".fixed-top").css("background" , "white");
+$(".navbar a").css("color" , "black");
+}
+
+else{
+$(".fixed-top").css("background" , "transparent");  
+$(".navbar a").css("color" , "white");	
+}
+})
+});
+$(document).ready(function(){
+$(window).scroll(function(){
+var scroll = $(window).scrollTop();
+if (scroll > 300) {
+  $(".tbra3").css("background" , "white");
+}
+
+else{
+    $(".tbra3").css("background" , "transparent");  	
+}
+})
+});
+
+
+  </script>
+</body>
+</html>
